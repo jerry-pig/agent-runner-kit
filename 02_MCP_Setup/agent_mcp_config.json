@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "intervals": {
+      "command": "intervals-mcp-server",
+      "args": [],
+      "description": "Intervals.icu 耐力数据中心 MCP，负责骑行台功率、TSS 负荷及 PMC 体能疲劳模型读取"
+    },
+    "coros_cn_direct": {
+      "command": "node",
+      "args": ["d:/Notebook/Jerry_Pig_Run/04_Tools/COROS_MCP/coros-direct.js", "listTools"],
+      "description": "COROS 高驰中国大陆区官方直连脚本执行器（替换为你本地实际路径）"
+    }
+  }
+}
