@@ -57,7 +57,7 @@
 协助跑者连接数据源（按跑者拥有的设备灵活选择）：
 
 ### 1. 高驰 (COROS) 大陆区配置：
-* 引导跑者查阅并运行 `OpenSource_Kit/02_MCP_Setup/coros_cn/SETUP_GUIDE.md`。
+* 引导跑者查阅并运行 `02_MCP_Setup/coros_cn/SETUP_GUIDE.md`。
 * 关键指导：
   - 确认跑者是中国大陆区账号（手机号注册）。
   - 指导跑者执行一次登录命令生成 `token.json`。
@@ -65,7 +65,7 @@
 
 ### 2. Intervals.icu (骑行台/全平台聚合) 配置（可选）：
 * 若跑者有智能骑行台（如智骑、迈金、Wahoo）或使用 MyWhoosh / 迈金顽鹿 / Strava：
-  - 引导跑者获取 Intervals.icu 的 `API_KEY` 和 `Athlete ID`（免费获取，详见 `OpenSource_Kit/02_MCP_Setup/intervals_icu/SETUP_GUIDE.md`）。
+  - 引导跑者获取 Intervals.icu 的 `API_KEY` 和 `Athlete ID`（免费获取，详见 `02_MCP_Setup/intervals_icu/SETUP_GUIDE.md`）。
   - 配置 `intervals-mcp-server`，实现功率、踏频、TSS 和 PMC 疲劳状态的无缝入库。
 
 ---
@@ -75,7 +75,7 @@
 收集到信息后，AI 智能体应代表跑者执行以下文件的落地与初始化（跑者可选择在当前目录初始化，或由你复制骨架到指定新目录）：
 
 1. **生成个人档案**：
-   - 读取 `OpenSource_Kit/03_Vault_Skeleton/00_Dashboard/个人档案与训练基线.md`；
+   - 读取 `03_Vault_Skeleton/00_Dashboard/个人档案与训练基线.md`；
    - 将跑者的姓名、PB、心率区间、配速区间填入，并保存。
 2. **创建目标战役目录结构**：
    - 建立 `01_Seasons/YYYY_当前赛季/YYYY-MM-DD_战役名称/` 目录；

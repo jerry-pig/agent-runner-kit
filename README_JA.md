@@ -51,11 +51,13 @@ flowchart LR
 
 | モジュール / パス | 概要 | 対象 |
 | :--- | :--- | :--- |
+| **[`check_environment.js`](./check_environment.js)** | **🩺 ワンクリック環境診断スクリプト**：Node.js、物理ネットワーク、COROSトークン、Intervalsの構成を自動判定。 | **全新規ユーザー（実行推奨）** |
 | **[`AGENT_BOOTSTRAP.md`](./AGENT_BOOTSTRAP.md)** | **⭐ コア初期化プロトコル**：このファイルをAIエージェントに読み込ませるだけで、対話形式で自動構築してくれます。 | **全ランナー（推奨）** |
 | **[`01_Agent_Skills/`](./01_Agent_Skills/)** | AIエージェントに運動科学とメニュー作成の専門性を持たせるスキル定義（プロンプト・ルール）。 | AIエージェント / 開発者 |
 | **[`02_MCP_Setup/`](./02_MCP_Setup/)** | COROSウォッチおよび Intervals.icu（スマートトレーナー）との接続スクリプト・設定ガイド。 | 環境構築 |
 | **[`03_Vault_Skeleton/`](./03_Vault_Skeleton/)** | 個人情報を除外したクリーンな Obsidian テンプレート（統合ダッシュボード、期分け設計、科学カード）。 | Obsidian 保管庫 |
 | **[`04_User_Manual.md`](./04_User_Manual.md)** | ランナーのための1日5分クイック操作ガイド＆コピペで使えるAIプロンプト集。 | 日常の練習管理 |
+| **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** | コミュニティ貢献ガイド：科学カードの追加、新ハードウェアコネクタ、ドキュメント改善。 | 開発者・コントリビューター |
 
 ---
 

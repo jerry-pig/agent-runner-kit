@@ -1,14 +1,20 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent-Runner-Kit MCP Configuration Examples",
+  "description": "各大主流 AI 客户端（Cursor / Antigravity / Claude Desktop / Cline）的 MCP 配置文件范例",
+  
+  "_notes": "请将 <YOUR_PROJECT_PATH> 替换为你本地 agent-runner-kit 的绝对路径（如 D:/code/agent-runner-kit 或 /Users/name/agent-runner-kit）",
+
   "mcpServers": {
+    "coros_cn_direct": {
+      "command": "node",
+      "args": ["<YOUR_PROJECT_PATH>/02_MCP_Setup/coros_cn/coros-direct.js", "listTools"],
+      "description": "高驰 (COROS) 大陆区官方直连执行器（自动绕过本地代理直接连接阿里云国内节点）"
+    },
     "intervals": {
       "command": "intervals-mcp-server",
       "args": [],
-      "description": "Intervals.icu 耐力数据中心 MCP，负责骑行台功率、TSS 负荷及 PMC 体能疲劳模型读取"
-    },
-    "coros_cn_direct": {
-      "command": "node",
-      "args": ["d:/Notebook/Jerry_Pig_Run/04_Tools/COROS_MCP/coros-direct.js", "listTools"],
-      "description": "COROS 高驰中国大陆区官方直连脚本执行器（替换为你本地实际路径）"
+      "description": "Intervals.icu 全平台聚合与智能骑行台（TSS / 功率 / PMC 体能疲劳模型）"
     }
   }
 }

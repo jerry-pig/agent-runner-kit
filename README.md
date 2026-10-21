@@ -50,11 +50,13 @@ flowchart LR
 
 | 模块 / 路径 | 核心作用 | 适用对象 |
 | :--- | :--- | :--- |
+| **[`check_environment.js`](./check_environment.js)** | **🩺 一键环境诊断脚本**：快速检查 Node 版本、物理网卡、COROS凭证与 Intervals 安装状态 | **所有新用户（建议首跑）** |
 | **[`AGENT_BOOTSTRAP.md`](./AGENT_BOOTSTRAP.md)** | **⭐ 核心启动引导**：复制这句话给你的 AI Agent，让 Agent 成为你的私人装机顾问，交互式帮你建仓 | **所有跑者（推荐首选）** |
 | **[`01_Agent_Skills/`](./01_Agent_Skills/)** | 赋予 AI Agent 运动科学与排课能力的技能提示词规范（Prompts/Skills/Rules） | AI 智能体 / 进阶开发者 |
 | **[`02_MCP_Setup/`](./02_MCP_Setup/)** | **高驰大陆区 MCP 网关方案**（绕过代理直连） + **Intervals.icu 接入脚本** | 环境配置与网络打通 |
 | **[`03_Vault_Skeleton/`](./03_Vault_Skeleton/)** | 干净、无私人信息的 Obsidian 仓库骨架（看板、模板、赛季架构、精选知识卡片） | 跑者直接作为 Vault 打开 |
 | **[`04_User_Manual.md`](./04_User_Manual.md)** | 面向跑者人类的日常操作使用手册与高频一键提示词锦囊 | 跑者日常训练使用 |
+| **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** | 社区贡献者指南：如何提交知识卡片、新硬件连接器或多语言文档 | 开发者与贡献者 |
 
 ---
 

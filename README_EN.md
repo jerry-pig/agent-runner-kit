@@ -50,11 +50,13 @@ flowchart LR
 
 | Module / Path | Purpose | Target Audience |
 | :--- | :--- | :--- |
+| **[`check_environment.js`](./check_environment.js)** | **🩺 One-Click Diagnostics Script**: Verifies Node.js, physical network interface, COROS token, and Intervals setup. | **All New Users (Recommended First Step)** |
 | **[`AGENT_BOOTSTRAP.md`](./AGENT_BOOTSTRAP.md)** | **⭐ Core Onboarding Protocol**: Feed this file to your AI Agent to have it interactively build your personal training hub from scratch. | **All Runners (Recommended)** |
 | **[`01_Agent_Skills/`](./01_Agent_Skills/)** | System prompts, execution rules, and sports science decision frameworks for AI agents. | AI Agents / Developers |
 | **[`02_MCP_Setup/`](./02_MCP_Setup/)** | Configuration, direct-connect gateway scripts (bypassing proxies for COROS China/Global), and Intervals.icu setup. | Environment Setup |
 | **[`03_Vault_Skeleton/`](./03_Vault_Skeleton/)** | Clean, anonymized Obsidian vault template (master dashboard, sample campaign, atomic physiology cards, templates). | Direct Obsidian Vault |
 | **[`04_User_Manual.md`](./04_User_Manual.md)** | Daily 5-minute human runner manual & one-click AI prompt cheatsheet. | Daily Runner Workflows |
+| **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** | Contribution guide: How to add sports science cards, new hardware connectors, and docs. | Contributors |
 
 ---
 

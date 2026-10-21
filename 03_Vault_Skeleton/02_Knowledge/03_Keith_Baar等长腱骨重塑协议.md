@@ -1,13 +1,13 @@
-﻿---
+---
 concept_id: tendon-isometric-loading
 title: Keith Baar 等长腱骨重塑协议
 category: 力学与力量
 source_papers:
-  - "[[03_Library/力量训练参考文献/PDF/Baar_2017_engineered_ligaments_load_adaptation.pdf]]"
-  - "[[03_Library/力量训练参考文献/PDF/Shaw_2017_gelatin_vitamin_C_collagen.pdf]]"
+  - "Baar K. Minimizing Injury and Maximizing Return to Play: Lessons from Engineered Ligaments. Sports Med. 2017 (DOI: 10.1007/s40279-017-0719-x)"
+  - "Shaw G, et al. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis. Am J Clin Nutr. 2017"
 application_scenarios:
-  - 1500m专项突破
-  - 髌腱与跟腱肌腱炎康复
+  - 耐力与冲刺专项肌力强化
+  - 髌腱与跟腱肌腱炎康复与疼痛阻断
   - 提升肌腱刚度与跑步经济性
 tags:
   - knowledge/endurance-science
@@ -33,7 +33,7 @@ tags:
 
 ---
 
-## 🏃 1500m 运动员实操处方 (Jerry 专项执行方案)
+## 🏃 严肃耐力跑者实操处方
 
 ### 1. 营养协同窗口 (Nutritional Window)
 * **时机**：在开始等长加载前 **30 ~ 60 分钟**。
@@ -55,3 +55,10 @@ tags:
 * ❌ **不要在严重急性红肿发热期（滑囊急性炎症期）强行重载**。
 * ❌ 单次等长刺激不要超时（严格控在 10 分钟以内），多练无益。
 * ❌ 尽量与高强度跑步主课错开：最好放在晨起空腹（配合胶原摄入）或下午力量课，距离晚间跑步间隔 4~6 小时。
+
+---
+
+## 🔗 关联知识
+
+* 生理基础：[[01_乳酸穿梭理论与单羧酸转运体]]
+* 训练规划：[[02_挪威双门槛体系与乳酸控制]]
