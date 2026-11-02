@@ -24,6 +24,11 @@ ehthumbs.db
 **/.env.local
 **/.env.*.local
 **/credentials.json
+**/config.json
+*.fit
+*.gpx
+*.tcx
+*.csv
 
 # Editor directories and files
 .idea/
